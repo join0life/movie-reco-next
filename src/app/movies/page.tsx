@@ -2,6 +2,17 @@ import { MovieItem } from "@/types";
 import { Suspense } from "react";
 import MovieListSkeleton from "../components/movie-list-skeleton";
 import MovieList from "../components/movie-list";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "인기 영화 목록",
+  description: "지금 인기있는 영화를 살펴보세요.",
+  openGraph: {
+    title: "인기 영화 목록",
+    description: "지금 인기있는 영화를 살펴보세요.",
+    images: ["/thumbnail.png"],
+  },
+};
 
 async function GetInitialMovies() {
   const res = await fetch(

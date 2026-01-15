@@ -2,6 +2,17 @@ import { MovieItem } from "@/types";
 import MovieDetail from "./components/movie-detail";
 import { Suspense } from "react";
 import MovieItemSkeleton from "./components/movie-item-skeleton";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "오늘의 영화",
+  description: "매일매일 새로운 영화를 추천해드립니다.",
+  openGraph: {
+    title: "오늘의 영화",
+    description: "매일매일 새로운 영화를 추천해드립니다.",
+    images: ["/thumbnail.png"],
+  },
+};
 
 async function GetMovieToday() {
   const today = new Date().toISOString().split("T")[0];
