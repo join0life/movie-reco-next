@@ -1,9 +1,10 @@
 # 오늘의 추천 영화
 
 TMDb API를 활용해 오늘의 트렌딩 영화를 추천하는 Next.js 앱입니다.
+[제작 기간] 25. 01. 13 ~ 25. 01. 15
 <img width="3360" height="1798" alt="Image" src="https://github.com/user-attachments/assets/a09be14e-0add-48bf-ac2f-ccea8cf94b63" />
 <img width="3360" height="3060" alt="Image" src="https://github.com/user-attachments/assets/419a123f-438c-40dc-aabd-c5f0daa2e028" />
-<img width="873" height="470" alt="Image" src="https://github.com/user-attachments/assets/9ea0ff81-53b3-4ad7-aa9c-2d6c696919d3" />
+<img width="871" height="462" alt="Image" src="https://github.com/user-attachments/assets/7cd9ad2c-5717-40fc-b024-b9d3365b5217" />
 
 ## ⚒️ 기술 스택
 
