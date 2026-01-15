@@ -6,6 +6,7 @@ body footer {
   font-family: "Galmuri9", monospace;
 }
 
-body main {
+body main,
+body #modal-root {
   font-family: "Galmuri11", monospace;
 }
